@@ -1,0 +1,26 @@
+.biji {
+    position: fixed;
+    top: 552px;
+}
+.button {
+    position: fixed;
+    top: 608px;
+}
+.reset{
+    position: fixed;
+    top: 608px;
+    left: 60px;
+}
+.Herring {
+    position: relative;
+}
+.Kingfish {
+    position: relative;
+    bottom: 195px;
+    left: 200px;
+}
+.Goldfish {
+    position: relative;
+    bottom: 390px;
+    left: 400px;
+}
