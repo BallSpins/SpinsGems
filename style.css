@@ -1,28 +1,45 @@
-.body {
-    color: lightblue;
-}
 .biji {
     position: fixed;
     top: 552px;
 }
 .button {
+    background-color: lightgreen;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
     position: fixed;
+    border-radius: 0 10px 0 0;
     top: 608px;
 }
 .reset{
+    background-color: red;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
     position: fixed;
+    border-radius: 0 0 0 10px;
     top: 608px;
     left: 60px;
 }
 .Herring {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-radius: 10px 10px 10px 10px;
     position: relative;
 }
 .Kingfish {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-radius: 10px 10px 10px 10px;
     position: relative;
     bottom: 200px;
     left: 200px;
 }
 .Goldfish {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-radius: 10px 10px 10px 10px;
     position: relative;
     bottom: 400px;
     left: 400px;
