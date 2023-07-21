@@ -11,6 +11,12 @@ var Mgold = 105;
 var Lgold = 150;
 var Hgold = 450;
 
+var Tcarp = 20;
+var Scarp = 80;
+var Mcarp = 140;
+var Lcarp = 200;
+var Hcarp = 600;
+
 function calc(body) {
     var Ther1 = parseInt(Therring.value);
     var Sher1 = parseInt(Sherring.value);
@@ -48,7 +54,19 @@ function calc(body) {
     var Hg1 = Hgold1*Hgold;
     var Gtotal = Tg1+Sg1+Mg1+Lg1+Hg1;
 
-    var total = Htotal+Ktotal+Gtotal;
+    var Tcarp1 = parseInt(Tcarp.value);
+    var Scarp1 = parseInt(Scarp.value);
+    var Mcarp1 = parseInt(Mcarp.value);
+    var Lcarp1 = parseInt(Lcarp.value);
+    var Hcarp1 = parseInt(Hcarp.value);
+    var Tc1 = Tcarp1*Tcarp;
+    var Sc1 = Scarp1*Scarp;
+    var Mc1 = Mcarp1*Mcarp;
+    var Lc1 = Lcarp1*Lcarp;
+    var Hc1 = Hcarp1*Hcarp;
+    var Ctotal = Tc1+Sc1+Mc1+Lc1+Hc1;
+
+    var total = Htotal+Ktotal+Gtotal+Ctotal;
     console.log(total) 
     document.getElementById("total").innerHTML = total;
 }
