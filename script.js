@@ -97,5 +97,6 @@ function calc(body){
 
 function reset() {
     var biji = total*0;
+    console.log("kam");
     document.getElementById("total").innerHTML = biji;
 }
