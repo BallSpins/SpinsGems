@@ -1,27 +1,3 @@
-var Therring = document.getElementById('Therring');
-var Sherring = document.getElementById('Sherring');
-var Mherring = document.getElementById('Mherring');
-var Lherring = document.getElementById('Lherring');
-var Hherring = document.getElementById('Hherring');
-
-var Tkingfish = document.getElementById('Tkingfish');
-var Skingfish = document.getElementById('Skingfish');
-var Mkingfish = document.getElementById('Mkingfish');
-var Lkingfish = document.getElementById('Lkingfish');
-var Hkingfish = document.getElementById('Hkingfish');
-
-var Tgoldfish = document.getElementById('Tgoldfish');
-var Sgoldfish = document.getElementById('Sgoldfish');
-var Mgoldfish = document.getElementById('Mgoldfish');
-var Lgoldfish = document.getElementById('Lgoldfish');
-var Hgoldfish = document.getElementById('Hgoldfish');
-
-var Tcarp = document.getElementById('Tcarp');
-var Scarp = document.getElementById('Scarp');
-var Mcarp = document.getElementById('Mcarp');
-var Lcarp = document.getElementById('Lcarp');
-var Hcarp = document.getElementById('Hcarp');
-
 var total = 0;
 var Ther = 10;
 var Sher = 40;
@@ -41,12 +17,12 @@ var Mcar = 140;
 var Lcar = 200;
 var Hcar = 600;
 
-function calc(body){
-    var Ther1 = parseInt(Therring);
-    var Sher1 = parseInt(Sherring);
-    var Mher1 = parseInt(Mherring);
-    var Lher1 = parseInt(Lherring);
-    var Hher1 = parseInt(Hherring);
+function calc(body) {
+    var Ther1 = parseInt(Therring.value);
+    var Sher1 = parseInt(Sherring.value);
+    var Mher1 = parseInt(Mherring.value);
+    var Lher1 = parseInt(Lherring.value);
+    var Hher1 = parseInt(Hherring.value);
     var Th1 = Ther1*Ther;
     var Sh1 = Sher1*Sher;
     var Mh1 = Mher1*Mher;
@@ -54,11 +30,11 @@ function calc(body){
     var Hh1 = Hher1*Hher;
     var Htotal = Th1+Sh1+Mh1+Lh1+Hh1;
 
-    var Tking1 = parseInt(Tkingfish);
-    var Sking1 = parseInt(Skingfish);
-    var Mking1 = parseInt(Mkingfish);
-    var Lking1 = parseInt(Lkingfish);
-    var Hking1 = parseInt(Hkingfish);
+    var Tking1 = parseInt(Tkingfish.value);
+    var Sking1 = parseInt(Skingfish.value);
+    var Mking1 = parseInt(Mkingfish.value);
+    var Lking1 = parseInt(Lkingfish.value);
+    var Hking1 = parseInt(Hkingfish.value);
     var Tk1 = Tking1*Ther;
     var Sk1 = Sking1*Sher;
     var Mk1 = Mking1*Mher;
@@ -66,11 +42,11 @@ function calc(body){
     var Hk1 = Hking1*Hher;
     var Ktotal = Tk1+Sk1+Mk1+Lk1+Hk1;
 
-    var Tgold1 = parseInt(Tgoldfish);
-    var Sgold1 = parseInt(Sgoldfish);
-    var Mgold1 = parseInt(Mgoldfish);
-    var Lgold1 = parseInt(Lgoldfish);
-    var Hgold1 = parseInt(Hgoldfish);
+    var Tgold1 = parseInt(Tgoldfish.value);
+    var Sgold1 = parseInt(Sgoldfish.value);
+    var Mgold1 = parseInt(Mgoldfish.value);
+    var Lgold1 = parseInt(Lgoldfish.value);
+    var Hgold1 = parseInt(Hgoldfish.value);
     var Tg1 = Tgold1*Tgold;
     var Sg1 = Sgold1*Sgold;
     var Mg1 = Mgold1*Mgold;
@@ -78,11 +54,11 @@ function calc(body){
     var Hg1 = Hgold1*Hgold;
     var Gtotal = Tg1+Sg1+Mg1+Lg1+Hg1;
 
-    var Tcar1 = parseInt(Tcarp);
-    var Scar1 = parseInt(Scarp);
-    var Mcar1 = parseInt(Mcarp);
-    var Lcar1 = parseInt(Lcarp);
-    var Hcar1 = parseInt(Hcarp);
+    var Tcar1 = parseInt(Tcarp.value);
+    var Scar1 = parseInt(Scarp.value);
+    var Mcar1 = parseInt(Mcarp.value);
+    var Lcar1 = parseInt(Lcarp.value);
+    var Hcar1 = parseInt(Hcarp.value);
     var Tc1 = Tcar1*Tcar;
     var Sc1 = Scar1*Scar;
     var Mc1 = Mcar1*Mcar;
@@ -97,6 +73,6 @@ function calc(body){
 
 function reset() {
     var biji = total*0;
-    console.log("kam");
+    console.log("kam")
     document.getElementById("total").innerHTML = biji;
 }
