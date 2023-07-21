@@ -1,3 +1,27 @@
+var Therring = document.getElementById('Therring');
+var Sherring = document.getElementById('Sherring');
+var Mherring = document.getElementById('Mherring');
+var Lherring = document.getElementById('Lherring');
+var Hherring = document.getElementById('Hherring');
+
+var Tkingfish = document.getElementById('Tkingfish');
+var Skingfish = document.getElementById('Skingfish');
+var Mkingfish = document.getElementById('Mkingfish');
+var Lkingfish = document.getElementById('Lkingfish');
+var Hkingfish = document.getElementById('Hkingfish');
+
+var Tgoldfish = document.getElementById('Tgoldfish');
+var Sgoldfish = document.getElementById('Sgoldfish');
+var Mgoldfish = document.getElementById('Mgoldfish');
+var Lgoldfish = document.getElementById('Lgoldfish');
+var Hgoldfish = document.getElementById('Hgoldfish');
+
+var Tcarp = document.getElementById('Tcarp');
+var Scarp = document.getElementById('Scarp');
+var Mcarp = document.getElementById('Mcarp');
+var Lcarp = document.getElementById('Lcarp');
+var Hcarp = document.getElementById('Hcarp');
+
 var total = 0;
 var Ther = 10;
 var Sher = 40;
