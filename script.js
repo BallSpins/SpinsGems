@@ -11,11 +11,11 @@ var Mgold = 105;
 var Lgold = 150;
 var Hgold = 450;
 
-var Tcarp = 20;
-var Scarp = 80;
-var Mcarp = 140;
-var Lcarp = 200;
-var Hcarp = 600;
+var Tcar = 20;
+var Scar = 80;
+var Mcar = 140;
+var Lcar = 200;
+var Hcar = 600;
 
 function calc(body) {
     var Ther1 = parseInt(Therring.value);
@@ -54,16 +54,16 @@ function calc(body) {
     var Hg1 = Hgold1*Hgold;
     var Gtotal = Tg1+Sg1+Mg1+Lg1+Hg1;
 
-    var Tcarp1 = parseInt(Tcarp.value);
-    var Scarp1 = parseInt(Scarp.value);
-    var Mcarp1 = parseInt(Mcarp.value);
-    var Lcarp1 = parseInt(Lcarp.value);
-    var Hcarp1 = parseInt(Hcarp.value);
-    var Tc1 = Tcarp1*Tcarp;
-    var Sc1 = Scarp1*Scarp;
-    var Mc1 = Mcarp1*Mcarp;
-    var Lc1 = Lcarp1*Lcarp;
-    var Hc1 = Hcarp1*Hcarp;
+    var Tcar1 = parseInt(Tcarp.value);
+    var Scar1 = parseInt(Scarp.value);
+    var Mcar1 = parseInt(Mcarp.value);
+    var Lcar1 = parseInt(Lcarp.value);
+    var Hcar1 = parseInt(Hcarp.value);
+    var Tc1 = Tcar1*Tcar;
+    var Sc1 = Scar1*Scar;
+    var Mc1 = Mcar1*Mcar;
+    var Lc1 = Lcar1*Lcar;
+    var Hc1 = Hcar1*Hcar;
     var Ctotal = Tc1+Sc1+Mc1+Lc1+Hc1;
 
     var total = Htotal+Ktotal+Gtotal+Ctotal;
