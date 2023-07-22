@@ -37,8 +37,11 @@
     border-radius: 10px 10px 10px 10px;
     text-align: center;
     position: relative;
-    bottom: 205px;
+    bottom: 176px;
     left: 200px;
+}
+#Tk1 {
+    text-align: left;
 }
 .Goldfish {
     font-style: italic;
@@ -47,8 +50,11 @@
     border-radius: 10px 10px 10px 10px;
     position: relative;
     text-align: center;
-    bottom: 415px;
+    bottom: 356px;
     left: 400px;
+}
+#Tg1 {
+    text-align: left;
 }
 .Carp {
     font-style: italic;
