@@ -20,9 +20,7 @@
     left: 60px;
 }
 .Atas {
-    background-color: lightsalmon;
-    justify-items: auto;
-    padding: 0 0 0 30px;
+    text-align: left;
 }
 .Herring {
     font-style: italic;
