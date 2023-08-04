@@ -42,8 +42,8 @@
     display: inline-flex;
 }
 #calc {
-    color: lightgreen;
+    background-color: lightgreen;
 }
 #reset {
-    color: red;
+    background-color: red;
 }
