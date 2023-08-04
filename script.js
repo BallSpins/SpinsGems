@@ -17,6 +17,26 @@ var Mcar = 140;
 var Lcar = 200;
 var Hcar = 600;
 
+//atas-bawah
+
+var Ttun = 40;
+var Stun = 160;
+var Mtun = 280;
+var Ltun = 400;
+var Htun = 1200;
+
+var Tan = 30;
+var San = 120;
+var Man = 210;
+var Lan = 300;
+var Han = 900;
+
+var Tdu = 5;
+var Sdu = 10;
+var Mdu  = 30;
+var Ldu = 50;
+var Hdu = 100;
+
 function calc(body) {
     var Ther1 = parseInt(Therring.value);
     var Sher1 = parseInt(Sherring.value);
@@ -90,7 +110,45 @@ function calc(body) {
     var Hha = Hhal * Hcar;
     var Hatotal = Tha+Sha+Mha+Lha+Hha;
 
-    var total = Htotal+Ktotal+Gtotal+Ctotal+TTotal+Hatotal;
+    //atas-bawah
+
+    var Ttun1 = parseInt(Ttuna.value);
+    var Stun1 = parseInt(Stuna.value);
+    var Mtun1 = parseInt(Mtuna.value);
+    var Ltun1 = parseInt(Ltuna.value);
+    var Htun1 = parseInt(Htuna.value);
+    var Tt = Ttun1 * Ttun;
+    var St = Stun1 * Stun;
+    var Mt = Mtun1 * Mtun;
+    var Lt = Ltun1 * Ltun;
+    var Ht = Htun1 * Htun;
+    var Tutotal = Tt+St+Mt+Lt+Ht;
+    
+    var Tan1 = parseInt(Tang.value);
+    var San1 = parseInt(Sang.value);
+    var Man1 = parseInt(Mang.value);
+    var Lan1 = parseInt(Lang.value);
+    var Han1 = parseInt(Hang.value);
+    var Ta = Tan1 * Tan;
+    var Sa = San1 * San;
+    var Ma = Man1 * Man;
+    var La = Lan1 * Lan;
+    var Ha = Han1 * Han;
+    var Atotal = Ta+Sa+Ma+La+Ha;
+
+    var Tdu1 = parseInt(Tdum.value);
+    var Sdu1 = parseInt(Sdum.value);
+    var Mdu1 = parseInt(Mdum.value);
+    var Ldu1 = parseInt(Ldum.value);
+    var Hdu1 = parseInt(Hdum.value);
+    var Td = Tdu1 * Tdu;
+    var Sd  = Sdu1 * Sdu;
+    var Md = Mdu1 * Mdu;
+    var Ld = Ldu1 * Ldu;
+    var Hd  = Hdu1 * Hdu;
+    var Dtotal = Td+Sd+Md+Ld+Hd;
+
+    var total = Htotal+Ktotal+Gtotal+Ctotal+TTotal+Hatotal+Tutotal+Atotal+Dtotal;
     console.log(total) 
     document.getElementById("total").innerHTML = total;
 }

@@ -9,6 +9,7 @@
     padding: 0 15px 0 15px;
 }
 .Atas-Tengah {
+    padding-top: 10px;
     border: 10px 10px 10px 10px;
     border-radius: 15p;
     display: inline-flex;
@@ -18,6 +19,31 @@
 .Carp {
     padding: 0 15px 0 15px;
 }
+.Bawah-Tengah {
+    padding-top: 10px;
+    border: 10px 10px 10px 10px;
+    border-radius: 15p;
+    display: inline-flex;
+    padding-bottom: 10px;
+    border-bottom: 5px solid;
+}
+.Angler {
+    padding: 0 15px 0 15px;
+}
 .round {
     border-radius: 15px;
+}
+.hasil {
+    padding-top: 30px;
+}
+.Tombol{
+    border-radius: 15px 0 15px 0;
+    padding-top: 10px;
+    display: inline-flex;
+}
+#calc {
+    color: lightgreen;
+}
+#reset {
+    color: red;
 }
