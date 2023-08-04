@@ -2,8 +2,20 @@
     border: 10px 10px 10px 10px;
     border-radius: 15p;
     display: inline-flex;
+    padding-bottom: 10px;
+    border-bottom: 5px solid;
 }
 .Kingfish {
+    padding: 0 15px 0 15px;
+}
+.Atas-Tengah {
+    border: 10px 10px 10px 10px;
+    border-radius: 15p;
+    display: inline-flex;
+    padding-bottom: 10px;
+    border-bottom: 5px solid;
+}
+.Carp {
     padding: 0 15px 0 15px;
 }
 .round {

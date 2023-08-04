@@ -53,20 +53,44 @@ function calc(body) {
     var Lg1 = Lgold1*Lgold;
     var Hg1 = Hgold1*Hgold;
     var Gtotal = Tg1+Sg1+Mg1+Lg1+Hg1;
+    
+    var Tbut = parseInt(Tbutter.value);
+    var Sbut = parseInt(Sbutter.value);
+    var Mbut = parseInt(Mbutter.value);
+    var Lbut = parseInt(Lbutter.value);
+    var HBut = parseInt(Hbutter.value);
+    var Tb = Tbut * Tgold;
+    var Sb = Sbut * Sgold;
+    var Mb = Mbut * Mgold;
+    var Lb = Lbut * Lgold;
+    var Hb = HBut * Hgold;
+    var TTotal = Tb+Sb+Mb+Lb+Hb;
 
-    //var Tcar1 = parseInt(Tcarp.value);
-    //var Scar1 = parseInt(Scarp.value);
-    //var Mcar1 = parseInt(Mcarp.value);
-    //var Lcar1 = parseInt(Lcarp.value);
-    //var Hcar1 = parseInt(Hcarp.value);
-    //var Tc1 = Tcar1*Tcar;
-    //var Sc1 = Scar1*Scar;
-    //var Mc1 = Mcar1*Mcar;
-    //var Lc1 = Lcar1*Lcar;
-    //var Hc1 = Hcar1*Hcar;
-    //var Ctotal = Tc1+Sc1+Mc1+Lc1+Hc1;
+    var Tcar1 = parseInt(Tcarp.value);
+    var Scar1 = parseInt(Scarp.value);
+    var Mcar1 = parseInt(Mcarp.value);
+    var Lcar1 = parseInt(Lcarp.value);
+    var Hcar1 = parseInt(Hcarp.value);
+    var Tc1 = Tcar1*Tcar;
+    var Sc1 = Scar1*Scar;
+    var Mc1 = Mcar1*Mcar;
+    var Lc1 = Lcar1*Lcar;
+    var Hc1 = Hcar1*Hcar;
+    var Ctotal = Tc1+Sc1+Mc1+Lc1+Hc1;
 
-    var total = Htotal+Ktotal+Gtotal;
+    var Thal = parseInt(Thali.value);
+    var Shal = parseInt(Shali.value);
+    var Mhal = parseInt(Mhali.value);
+    var Lhal = parseInt(Lhali.value);
+    var Hhal = parseInt(Hhali.value);
+    var Tha = Thal * Tcar;
+    var Sha = Shal * Scar;
+    var Mha = Mhal * Mcar;
+    var Lha = Lhal * Lcar;
+    var Hha = Hhal * Hcar;
+    var Hatotal = Tha+Sha+Mha+Lha+Hha;
+
+    var total = Htotal+Ktotal+Gtotal+Ctotal+TTotal+Hatotal;
     console.log(total) 
     document.getElementById("total").innerHTML = total;
 }
