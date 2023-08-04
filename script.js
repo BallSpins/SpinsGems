@@ -54,19 +54,19 @@ function calc(body) {
     var Hg1 = Hgold1*Hgold;
     var Gtotal = Tg1+Sg1+Mg1+Lg1+Hg1;
 
-    var Tcar1 = parseInt(Tcarp.value);
-    var Scar1 = parseInt(Scarp.value);
-    var Mcar1 = parseInt(Mcarp.value);
-    var Lcar1 = parseInt(Lcarp.value);
-    var Hcar1 = parseInt(Hcarp.value);
-    var Tc1 = Tcar1*Tcar;
-    var Sc1 = Scar1*Scar;
-    var Mc1 = Mcar1*Mcar;
-    var Lc1 = Lcar1*Lcar;
-    var Hc1 = Hcar1*Hcar;
-    var Ctotal = Tc1+Sc1+Mc1+Lc1+Hc1;
+    //var Tcar1 = parseInt(Tcarp.value);
+    //var Scar1 = parseInt(Scarp.value);
+    //var Mcar1 = parseInt(Mcarp.value);
+    //var Lcar1 = parseInt(Lcarp.value);
+    //var Hcar1 = parseInt(Hcarp.value);
+    //var Tc1 = Tcar1*Tcar;
+    //var Sc1 = Scar1*Scar;
+    //var Mc1 = Mcar1*Mcar;
+    //var Lc1 = Lcar1*Lcar;
+    //var Hc1 = Hcar1*Hcar;
+    //var Ctotal = Tc1+Sc1+Mc1+Lc1+Hc1;
 
-    var total = Htotal+Ktotal+Gtotal+Ctotal;
+    var total = Htotal+Ktotal+Gtotal;
     console.log(total) 
     document.getElementById("total").innerHTML = total;
 }
