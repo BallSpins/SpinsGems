@@ -1,7 +1,11 @@
 .Atas {
     border: 10px 10px 10px 10px;
+    border-radius: 15p;
+    display: inline-flex;
 }
 .Kingfish {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 0 15px 0 15px;
+}
+#gold {
+    border-radius: 15px;
 }
