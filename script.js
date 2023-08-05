@@ -208,7 +208,7 @@ function reset() {
     document.getElementById("total").innerHTML = biji;
 }
 
-function pricecalc(t) {
+function pricecalc() {
     var prtotal = calc();
     var price = parseInt(preca.value);
     var totalprice = prtotal / price * 250;
