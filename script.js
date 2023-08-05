@@ -208,7 +208,8 @@ function reset() {
 }
 
 function pricecalc() {
-    var price = parseInt(pricec.value);
+    var price = parseInt(preca.value);
     var totalprice = total / price * 250;
+    console.log(totalprice)
     document.getElementById("priTo").innerHTML = totalprice;
 }
