@@ -206,3 +206,9 @@ function reset() {
     console.log("kam")
     document.getElementById("total").innerHTML = biji;
 }
+
+function pricecalc() {
+    var price = parseInt(pricec.value);
+    var totalprice = total / price * 250;
+    document.getElementById("priTo").innerHTML = totalprice;
+}

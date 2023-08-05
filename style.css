@@ -44,6 +44,12 @@
 .hasil {
     padding-top: 30px;
 }
+.total {
+    display: inline-flex;
+}
+.totalprice {
+    display: inline-flex;
+}
 .Tombol{
     border-radius: 15px 0 15px 0;
     padding-top: 10px;

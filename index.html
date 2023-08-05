@@ -165,8 +165,19 @@
 
         </div>
         <div class="hasil">
-            <p>Total gems:</p>
-            <p id="total"></p>
+            <div class="total">
+                <p>Total gems:</p>
+                <p id="total">0</p>
+            </div>
+            <div class="Price">
+                <p>Input Fgems price right now(.../250):</p><br>
+                <input type="text" id="pricec" class="round" value="0"><br>
+                <button type="button" id="pricecalc" onclick="pricecalc()">calc</button>
+                <div class="totalprice">
+                    <p>Price of your gems is:</p>
+                    <p id="priTo">0</p>
+                </div>
+            </div>
         </div>
         <div class="Tombol">
             <button type="button" id="calc" onclick="calc()">calc</button><br>
