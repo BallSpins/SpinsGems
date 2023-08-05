@@ -43,7 +43,11 @@ var Maci = 560;
 var Laci = 800;
 var Haci = 2400;
 
-
+var Tcra = 320;
+var Scra = 1280;
+var Mcra = 2240;
+var Lcra = 3200;
+var Hcra = 9600;
 
 function calc(body) {
     var Ther1 = parseInt(Therring.value);
@@ -156,7 +160,43 @@ function calc(body) {
     var Hd  = Hdu1 * Hdu;
     var Dtotal = Td+Sd+Md+Ld+Hd;
 
-    var total = Htotal+Ktotal+Gtotal+Ctotal+TTotal+Hatotal+Tutotal+Atotal+Dtotal;
+    var Taci1 = parseInt(Tacid.value);
+    var Saci1 = parseInt(Sacid.value);
+    var Maci1 = parseInt(Macid.value);
+    var Laci1 = parseInt(Lacid.value);
+    var Haci1 = parseInt(Hacid.value);
+    var Tac = Taci1 * Taci;
+    var Sac = Saci1 * Saci;
+    var Mac = Maci1 * Maci;
+    var Lac = Laci1 * Laci;
+    var Hac = Haci1 * Haci;
+    var Actotal = Tac+Sac+Mac+Lac+Hac;
+
+    var Tpi = parseInt(Tpir.value);
+    var Spi = parseInt(Spir.value);
+    var Mpi = parseInt(Mpir.value);
+    var Lpi = parseInt(Lpir.value);
+    var Hpi = parseInt(Hpir.value);
+    var Tp = Tpi * Tan;
+    var Sp = Spi * San;
+    var Mp = Mpi * Man;
+    var Lp = Lpi * Lan;
+    var Hp = Hpi * Han;
+    var Ptotal = Tp+Sp+Mp+Lp+Hp;
+
+    var Tcra1 = parseInt(Tcrab.value);
+    var Scra1 = parseInt(Scrab.value);
+    var Mcra1 = parseInt(Mcrab.value);
+    var Lcra1 = parseInt(Lcrab.value);
+    var Hcra1 = parseInt(Hcrab.value);
+    var Tcr = Tcra1 * Tcra;
+    var Scr = Scra1 * Scra;
+    var Mcr = Mcra1 * Mcra;
+    var Lcr = Lcra1 * Lcra;
+    var Hcr = Hcra1 * Hcra;
+    var Crtotal = Tcr+Scr+Mcr+Lcr+Hcr; 
+
+    var total = Htotal+Ktotal+Gtotal+Ctotal+TTotal+Hatotal+Tutotal+Atotal+Dtotal+Actotal+Ptotal+Crtotal;
     console.log(total) 
     document.getElementById("total").innerHTML = total;
 }

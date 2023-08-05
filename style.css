@@ -30,6 +30,17 @@
 .Angler {
     padding: 0 30px 0 30px;
 }
+.Bawah {
+    padding-top: 10px;
+    border: 10px 10px 10px 10px;
+    border-radius: 15p;
+    display: inline-flex;
+    padding-bottom: 10px;
+    border-bottom: 5px solid;
+}
+.Piranha {
+    padding: 0 30px 0 30px;
+}
 .round {
     border-radius: 15px;
 }
