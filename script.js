@@ -198,8 +198,8 @@ function calc(body) {
 
     var total = Htotal+Ktotal+Gtotal+Ctotal+TTotal+Hatotal+Tutotal+Atotal+Dtotal+Actotal+Ptotal+Crtotal;
     console.log(total);
-    return total;
     document.getElementById("total").innerHTML = total;
+    return total;
 }
 
 function reset() {
