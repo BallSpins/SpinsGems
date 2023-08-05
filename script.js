@@ -29,13 +29,21 @@ var Tan = 30;
 var San = 120;
 var Man = 210;
 var Lan = 300;
-var Han = 900;
+var Han = 900; //angler == piranha
 
 var Tdu = 5;
 var Sdu = 10;
 var Mdu  = 30;
 var Ldu = 50;
 var Hdu = 100;
+
+var Taci = 80;
+var Saci = 320;
+var Maci = 560;
+var Laci = 800;
+var Haci = 2400;
+
+
 
 function calc(body) {
     var Ther1 = parseInt(Therring.value);
