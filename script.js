@@ -197,19 +197,21 @@ function calc(body) {
     var Crtotal = Tcr+Scr+Mcr+Lcr+Hcr; 
 
     var total = Htotal+Ktotal+Gtotal+Ctotal+TTotal+Hatotal+Tutotal+Atotal+Dtotal+Actotal+Ptotal+Crtotal;
-    console.log(total) 
+    console.log(total);
+    return total;
     document.getElementById("total").innerHTML = total;
 }
 
 function reset() {
     var biji = total*0;
-    console.log("kam")
+    console.log("kam");
     document.getElementById("total").innerHTML = biji;
 }
 
-function pricecalc() {
+function pricecalc(t) {
+    var prtotal = calc();
     var price = parseInt(preca.value);
-    var totalprice = total / price * 250;
+    var totalprice = prtotal / price * 250;
     console.log(totalprice)
     document.getElementById("priTo").innerHTML = totalprice;
 }
