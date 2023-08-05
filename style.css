@@ -2,40 +2,37 @@
     border: 10px 10px 10px 10px;
     border-radius: 15p;
     display: inline-flex;
-    padding-bottom: 10px;
+    padding: 0 40px 10px 40px;
     border-bottom: 5px solid;
 }
 .Kingfish {
     padding: 0 30px 0 30px;
 }
 .Atas-Tengah {
-    padding-top: 10px;
     border: 10px 10px 10px 10px;
     border-radius: 15p;
     display: inline-flex;
-    padding-bottom: 10px;
+    padding: 10px 40px 10px 40px;
     border-bottom: 5px solid;
 }
 .Carp {
     padding: 0 30px 0 30px;
 }
 .Bawah-Tengah {
-    padding-top: 10px;
     border: 10px 10px 10px 10px;
     border-radius: 15p;
     display: inline-flex;
-    padding-bottom: 10px;
+    padding: 10px 40px 10px 40px;
     border-bottom: 5px solid;
 }
 .Angler {
     padding: 0 30px 0 30px;
 }
 .Bawah {
-    padding-top: 10px;
     border: 10px 10px 10px 10px;
     border-radius: 15p;
     display: inline-flex;
-    padding-bottom: 10px;
+    padding: 10px 40px 10px 40px;
     border-bottom: 5px solid;
 }
 .Piranha {
