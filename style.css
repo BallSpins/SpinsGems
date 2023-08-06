@@ -58,9 +58,15 @@
 .Nof {
     background-color: #000000a6;
 }
+#pricecalc {
+    background: none;
+    border-radius: 10px 7.8px 10px 7.8px;
+}
 #calc {
+    border-radius: 10px 0 10px 0;
     background-color: lightgreen;
 }
 #reset {
+    border-radius: 0 10px 0 10px;
     background-color: red;
 }
