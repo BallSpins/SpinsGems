@@ -95,9 +95,9 @@ function calc() {
     document.getElementById("total").innerHTML = sum;
     return sum;
 }
-function reset() {
-    document.getElementById("total").innerHTML = calc()*0;
-}
-function pricecalc() {
+function pricecalc() { 
     document.getElementById("priTo").innerHTML = calc() / preca.value * 250;
+}
+function reset() {
+    document.getElementsByClassName("round")[0].value * 0;
 }
