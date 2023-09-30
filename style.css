@@ -44,7 +44,7 @@ input {
     margin: auto;
     margin-top: 30px;
     border-radius: 20px 20px 20px 20px;
-    width: 25%;
+    width: 50%;
     background-color: #000000a6;
 }
 #pricecalc {
@@ -58,4 +58,32 @@ input {
 #reset {
     border-radius: 0 10px 0 10px;
     background-color: red;
+}
+/*Laptop*/
+@media (max-width:992px){
+    html {
+        font-size: large;
+    }
+}
+@media (max-width:770px){
+    html {
+        font-size: medium;
+    }
+    .Kingfish, .Carp, .Angler, .Piranha {
+        margin: 0 20px 0 20px;
+    }
+}
+@media (max-width:576px){
+    html {
+        font-size: small;
+    }
+    .Kingfish, .Carp, .Angler, .Piranha {
+        margin: 0 15px 0 15px;
+    }
+    .Atas, .Atas-Tengah, .Bawah-Tengah, .Bawah {
+        padding: 0 20px 10px 20px;
+    }
+    .Nof {
+        width: auto;
+    }
 }
