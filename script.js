@@ -201,13 +201,11 @@ function calc(body) {
     document.getElementById("total").innerHTML = total;
     return total;
 }
-
 function reset() {
     var biji = total*0;
     console.log("kam");
     document.getElementById("total").innerHTML = biji;
 }
-
 function pricecalc() {
     var prtotal = calc();
     var price = parseInt(preca.value);

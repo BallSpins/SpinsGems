@@ -1,45 +1,29 @@
-.Atas {
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Atas, .Atas-Tengah, .Bawah-Tengah, .Bawah {
     border: 10px 10px 10px 10px;
-    border-radius: 15p;
     display: inline-flex;
     padding: 0 40px 10px 40px;
     border-bottom: 5px solid;
 }
-.Kingfish {
-    padding: 0 30px 0 30px;
-}
-.Atas-Tengah {
-    border: 10px 10px 10px 10px;
-    border-radius: 15p;
-    display: inline-flex;
-    padding: 10px 40px 10px 40px;
-    border-bottom: 5px solid;
-}
-.Carp {
-    padding: 0 30px 0 30px;
-}
-.Bawah-Tengah {
-    border: 10px 10px 10px 10px;
-    border-radius: 15p;
-    display: inline-flex;
-    padding: 10px 40px 10px 40px;
-    border-bottom: 5px solid;
-}
-.Angler {
-    padding: 0 30px 0 30px;
-}
-.Bawah {
-    border: 10px 10px 10px 10px;
-    border-radius: 15p;
-    display: inline-flex;
-    padding: 10px 40px 10px 40px;
-    border-bottom: 5px solid;
-}
-.Piranha {
-    padding: 0 30px 0 30px;
+.Kingfish, .Carp, .Angler, .Piranha {
+    margin: 0 30px 0 30px;
 }
 .round {
     border-radius: 15px;
+}
+input {
+    width: 40px;
+}
+.box1, .box2 {
+    display: inline-flex;
+}
+.bottom {
+    margin-top: 5px;
+}
+.center {
+    margin: 5px 5px 0 0;
 }
 .hasil {
     padding-top: 30px;
@@ -56,6 +40,11 @@
     display: inline-flex;
 }
 .Nof {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px 20px 20px 20px;
+    width: 25%;
     background-color: #000000a6;
 }
 #pricecalc {
