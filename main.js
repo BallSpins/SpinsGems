@@ -1,87 +1,87 @@
 const fish = [
     {//herring
-        tiny: 10 * Therring.value,
-        small: 40 * Sherring.value,
-        medium: 70 * Mherring.value,
-        large: 100 * Lherring.value,
-        huge: 300 * Hherring.value
+        tiny: 10 * document.getElementById("Therring").value,
+        small: 40 * document.getElementById("Sherring").value,
+        medium: 70 * document.getElementById("Mherring").value,
+        large: 100 * document.getElementById("Lherring").value,
+        huge: 300 * document.getElementById("Hherring").value
     },
     {//kingish
-        tiny: 10 * Tkingfish.value,
-        small: 40 * Skingfish.value,
-        medium: 70 * Mkingfish.value,
-        large: 100 * Lkingfish.value,
-        huge: 300 * Hkingfish.value
+        tiny: 10 * document.getElementById("Tkingfish").value,
+        small: 40 * document.getElementById("Skingfish").value,
+        medium: 70 * document.getElementById("Mkingfish").value,
+        large: 100 * document.getElementById("Lkingfish").value,
+        huge: 300 * document.getElementById("Hkingfish").value
     },
     {//goldfish
-        tiny: 15 * Tgoldfish.value,
-        small: 60 * Sgoldfish.value,
-        medium: 105 * Mgoldfish.value,
-        large: 150 * Lgoldfish.value,
-        huge: 450 * Hgoldfish.value
+        tiny: 15 * document.getElementById("Tgoldfish").value,
+        small: 60 * document.getElementById("Sgoldfish").value,
+        medium: 105 * document.getElementById("Mgoldfish").value,
+        large: 150 * document.getElementById("Lgoldfish").value,
+        huge: 450 * document.getElementById("Hgoldfish").value
     },
     {//butterflyfish
-        tiny: 15 * Tbutter.value,
-        small: 60 * Sbutter.value,
-        medium: 105 * Mbutter.value,
-        large: 150 * Lbutter.value,
-        huge: 450 * Hbutter.value
+        tiny: 15 * document.getElementById("Tbutter").value,
+        small: 60 * document.getElementById("Sbutter").value,
+        medium: 105 * document.getElementById("Mbutter").value,
+        large: 150 * document.getElementById("Lbutter").value,
+        huge: 450 * document.getElementById("Hbutter").value
     },
     {//carp
-        tiny: 20 * Tcarp.value,
-        small: 80 * Scarp.value,
-        medium: 140 * Mcarp.value,
-        large: 200 * Lcarp.value,
-        huge: 600 * Hcarp.value
+        tiny: 20 * document.getElementById("Tcarp").value,
+        small: 80 * document.getElementById("Scarp").value,
+        medium: 140 * document.getElementById("Mcarp").value,
+        large: 200 * document.getElementById("Lcarp").value,
+        huge: 600 * document.getElementById("Hcarp").value
     },
     {//halibut
-        tiny: 20 * Thali.value,
-        small: 80 * Shali.value,
-        medium: 140 * Mhali.value,
-        large: 200 * Lhali.value,
-        huge: 600 * Hhali.value
+        tiny: 20 * document.getElementById("Thali").value,
+        small: 80 * document.getElementById("Shali").value,
+        medium: 140 * document.getElementById("Mhali").value,
+        large: 200 * document.getElementById("Lhali").value,
+        huge: 600 * document.getElementById("Hhali").value
     },
     {//tuna
-        tiny: 40 * Ttuna.value,
-        small: 160 * Stuna.value,
-        medium: 280 * Mtuna.value,
-        large: 400 * Ltuna.value,
-        huge: 1200 * Htuna.value
+        tiny: 40 * document.getElementById("Ttuna").value,
+        small: 160 * document.getElementById("Stuna").value,
+        medium: 280 * document.getElementById("Mtuna").value,
+        large: 400 * document.getElementById("Ltuna").value,
+        huge: 1200 * document.getElementById("Htuna").value
     },
     {//sea angler
-        tiny: 30 * Tang.value,
-        small: 120 * Sang.value,
-        medium: 210 * Mang.value,
-        large: 300 * Lang.value,
-        huge: 900 * Hang.value
+        tiny: 30 * document.getElementById("Tang").value,
+        small: 120 * document.getElementById("Sang").value,
+        medium: 210 * document.getElementById("Mang").value,
+        large: 300 * document.getElementById("Lang").value,
+        huge: 900 * document.getElementById("Hang").value
     },
     {//piranha
-        tiny: 30 * Tpir.value,
-        small: 120 * Spir.value,
-        medium: 210 * Mpir.value,
-        large: 300 * Lpir.value,
-        huge: 900 * Hpir.value
+        tiny: 30 * document.getElementById("Tpir").value,
+        small: 120 * document.getElementById("Spir").value,
+        medium: 210 * document.getElementById("Mpir").value,
+        large: 300 * document.getElementById("Lpir").value,
+        huge: 900 * document.getElementById("Hpir").value
     },
     {//dumbfish
-        tiny: 5 * Tdum.value,
-        small: 10 * Sdum.value,
-        medium: 30 * Mdum.value,
-        large: 50 * Ldum.value,
-        huge: 100 * Hdum.value
+        tiny: 5 * document.getElementById("Tdum").value,
+        small: 10 * document.getElementById("Sdum").value,
+        medium: 30 * document.getElementById("Mdum").value,
+        large: 50 * document.getElementById("Ldum").value,
+        huge: 100 * document.getElementById("Hdum").value
     },
     {//acid puffer
-        tiny: 80 * Tacid.value,
-        small: 320 * Sacid.value,
-        medium: 560 * Macid.value,
-        large: 800 * Lacid.value,
-        huge: 2400 * Hacid.value
+        tiny: 80 * document.getElementById("Tacid").value,
+        small: 320 * document.getElementById("Sacid").value,
+        medium: 560 * document.getElementById("Macid").value,
+        large: 800 * document.getElementById("Lacid").value,
+        huge: 2400 * document.getElementById("Hacid").value
     },
     {//crab
-        tiny: 320 * Tcrab.value,
-        small: 1280 * Scrab.value,
-        medium: 2240 * Mcrab.value,
-        large: 3200 * Lcrab.value,
-        huge: 9600 * Hcrab.value
+        tiny: 320 * document.getElementById("Tcrab").value,
+        small: 1280 * document.getElementById("Scrab").value,
+        medium: 2240 * document.getElementById("Mcrab").value,
+        large: 3200 * document.getElementById("Lcrab").value,
+        huge: 9600 * document.getElementById("Hcrab").value
     }
 ];
 for(let i = 0; i < fish.length; i++) {
