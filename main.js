@@ -97,5 +97,5 @@ function reset() {
     document.getElementById("total").innerHTML = sum*0;
 }
 function pricecalc()  {
-    document.getElementById("total").innerHTML = sum / preca.value * 250;
+    document.getElementById("priTo").innerHTML = sum / preca.value * 250;
 }
