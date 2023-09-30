@@ -91,11 +91,11 @@ const sum = fish.reduce(function(a, b) {
     return a + b.total;
 }, 0);
 function calc() {
-    document.getElementById("total").innerHTML = total;
+    document.getElementById("total").innerHTML = sum;
 }
 function reset() {
-    document.getElementById("total").innerHTML = total*0;
+    document.getElementById("total").innerHTML = sum*0;
 }
 function pricecalc()  {
-    document.getElementById("total").innerHTML = total / preca.value * 250;
+    document.getElementById("total").innerHTML = sum / preca.value * 250;
 }
