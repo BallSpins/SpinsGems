@@ -91,6 +91,7 @@ const sum = fish.reduce(function(a, b) {
     return a + b.total;
 }, 0);
 function calc() {
+    console.log(sum);
     document.getElementById("total").innerHTML = sum;
 }
 function reset() {
