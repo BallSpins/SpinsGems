@@ -156,5 +156,5 @@ function toMchange() {
     location.replace('https://BallSpins.github.io/SpinsGems/html/gems.html');
 }
 function toFchange() {
-    location.replace('https://BallSpins.github.io/SpinsGems/fish.html');
+    location.replace('https://BallSpins.github.io/SpinsGems/index.html');
 }
