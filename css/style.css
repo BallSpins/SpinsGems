@@ -45,6 +45,13 @@ img {
     border-radius: 5px 5px 5px 5px;
     width: 40px;
 }
+#bc {
+    margin-top: 15px;
+    width: 22px;
+}
+.totalprice p {
+    padding-bottom: 10px;
+}
 input {
     border-radius: 15px;
     width: 40px;
