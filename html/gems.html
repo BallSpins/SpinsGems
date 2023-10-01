@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/icon/favicon.jpg">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- for testing
+        <link rel="stylesheet" type="text/css" href="https://BallSpins.github.io/SpinsGems/css/style.css">
+    -->
+    <title>SpinsGems</title>
+</head>
+<body style="background-color: teal;"> 
+    <header>
+        <center>
+            <h2>Mine Gems</h2>
+        </center>
+    </header>
+    <div class="hasil">
+        <button onclick="toFchange()">Fgems</button>
+        <button onclick="toMchange()">Mgems</button>
+        <p>Total gems: <span id="total">0</span></p>
+        <button onclick="reset()">reset</button>
+    </div>
+    <div class="mine" align="center">
+        <div class="Atas">
+            <div class="Topaz">
+                <header>
+                    <p><img src="https://BallSpins.github.io/SpinsGems/assets/Gemstone/Topaz.png"><br>Topaz</p>
+                </header>
+                <div class="box1">
+                    <section class="center">
+                        <label for="Ttopaz">Tiny:</label><br>
+                        <input type="number" name="Ttopaz" id="Ttopaz" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                    <section class="center">
+                        <label for="Stopaz">Small:</label><br>
+                        <input type="number" name="Stopaz" id="Stopaz" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                </div><br>
+                <div class="box2">
+                    <section class="center">
+                        <label for="Mtopaz">Medium:</label><br>
+                        <input type="number" name="Mtopaz" id="Mtopaz" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                    <section class="center">
+                        <label for="Ltopaz">Large:</label><br>
+                        <input type="number" name="Ltopaz" id="Ltopaz" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                </div>
+                <section class="bottom">
+                    <label for="Htopaz">Huge:</label><br>
+                        <input type="number" name="Htopaz" id="Htopaz" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                </section>
+            </div>
+            <div class="Emerald">
+                <header>
+                    <p><img src="https://BallSpins.github.io/SpinsGems/assets/Gemstone/assets/Emerald.png"><br>Emerald</p>
+                </header>
+                <div class="box1">
+                    <section class="center">
+                        <label for="Temerald">Tiny:</label><br>
+                        <input type="number" name="Temerald" id="Temerald" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                    <section class="center">
+                        <label for="Semerald">Small:</label><br>
+                        <input type="number" name="Semerald" id="Semerald" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                </div><br>
+                <div class="box2">
+                    <section class="center">
+                        <label for="Memerald">Medium:</label><br>
+                        <input type="number" name="Memerald" id="Memerald" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                    <section class="center">
+                        <label for="Lemerald">Large:</label><br>
+                        <input type="number" name="Lemerald" id="Lemerald" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                </div>
+                <section class="bottom">
+                    <label for="Hemerald">Huge:</label><br>
+                        <input type="number" name="Hemerald" id="Hemerald" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                </section>
+            </div>
+            <div class="Sapphire">
+                <header>
+                    <p><img src="https://BallSpins.github.io/SpinsGems/assets/Gemstone/Sapphire.png"><br>Sapphire</p>
+                </header>
+                <div class="box1">
+                    <section class="center">
+                        <label for="Tsapphire">Tiny:</label><br>
+                        <input type="number" name="Tsapphire" id="Tsapphire" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                    <section class="center">
+                        <label for="Ssapphire">Small:</label><br>
+                        <input type="number" name="Ssapphire" id="Ssapphire" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                </div><br>
+                <div class="box2">
+                    <section class="center">
+                        <label for="Msapphire">Medium:</label><br>
+                        <input type="number" name="Msapphire" id="Msapphire" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                    <section class="center">
+                        <label for="Lsapphire">Large:</label><br>
+                        <input type="number" name="Lsapphire" id="Lsapphire" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                </div>
+                <section class="bottom">
+                    <label for="Hsapphire">Huge:</label><br>
+                        <input type="number" name="Hsapphire" id="Hsapphire" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                </section>
+            </div>
+        </div><br>
+        <div class="Bawah">
+            <div class="Ruby">
+                <header>
+                    <p><img src="https://BallSpins.github.io/SpinsGems/assets/Gemstone/Ruby.png"><br>Ruby</p>
+                </header>
+                <div class="box1">
+                    <section class="center">
+                        <label for="Truby">Tiny:</label><br>
+                        <input type="number" name="Truby" id="Truby" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                    <section class="center">
+                        <label for="Sruby">Small:</label><br>
+                        <input type="number" name="Sruby" id="Sruby" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                </div><br>
+                <div class="box2">
+                    <section class="center">
+                        <label for="Mruby">Medium:</label><br>
+                        <input type="number" name="Mruby" id="Mruby" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                    <section class="center">
+                        <label for="Lruby">Large:</label><br>
+                        <input type="number" name="Lruby" id="Lruby" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                </div>
+                <section class="bottom">
+                    <label for="Hruby">Huge:</label><br>
+                        <input type="number" name="Hruby" id="Hruby" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                </section>
+            </div>
+            <div class="Diamond">
+                <header>
+                    <p><img src="assets/Gemstone/Diamond.png"><br>Diamond</p>
+                </header>
+                <div class="box1">
+                    <section class="center">
+                        <label for="Tdiamond">Tiny:</label><br>
+                        <input type="number" name="Tdiamond" id="Tdiamond" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                    <section class="center">
+                        <label for="Sdiamond">Small:</label><br>
+                        <input type="number" name="Sdiamond" id="Sdiamond" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                </div><br>
+                <div class="box2">
+                    <section class="center">
+                        <label for="Mdiamond">Medium:</label><br>
+                        <input type="number" name="Mdiamond" id="Mdiamond" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                    <section class="center">
+                        <label for="Ldiamond">Large:</label><br>
+                        <input type="number" name="Ldiamond" id="Ldiamond" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    </section>
+                </div>
+                <section class="bottom">
+                    <label for="Hdiamond">Huge:</label><br>
+                        <input type="number" name="Hdiamond" id="Hdiamond" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                </section>
+            </div>
+        </div>
+        <div class="Nof">
+            <div class="Price">
+                <p>Input Fgems price right now(.../250):</p>
+                <input type="number" id="preca" name="preca" onchange="Mpricecalc()" class="round" value="0"><br>
+                <div class="totalprice">
+                    <p>Price of your gems is: <span id="priTo">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- For Testing
+        <script src="https://BallSpins.github.io/SpinsGems/js/main.js"></script>
+    -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
