@@ -6,6 +6,12 @@ body {
 }
 .hasil button {
     border-radius: 10px 10px 10px 10px;
+    transition: all 0.4s ease-in-out;
+}
+.hasil button:hover {
+    cursor: pointer;
+    background-color: blue;
+    transition: all 0.4s ease-in-out;
 }
 .Atas, .Atas-Tengah, .Bawah-Tengah, .Bawah {
     border: 10px 10px 10px 10px;
