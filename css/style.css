@@ -10,6 +10,7 @@ body {
 }
 .hasil button:hover {
     cursor: pointer;
+    color: white;
     background-color: blue;
     transition: all 0.4s ease-in-out;
 }

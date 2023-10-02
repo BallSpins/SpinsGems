@@ -11,19 +11,28 @@
     <title>SpinsGems</title>
 </head>
 <body style="background-color: teal;"> 
+    <!-- Judul -->
     <header>
         <center>
             <h2>Mine Gems</h2>
         </center>
     </header>
+    <!-- /Judul -->
+
+    <!-- Hasil -->
     <div class="hasil">
         <button onclick="toFchange()">Fgems</button>
-        <button onclick="toMchange()" style="background-color: blue;">Mgems</button>
+        <button onclick="toMchange()" style="background-color: blue; color: white;">Mgems</button>
         <p>Total gems: <span id="total">0</span></p>
         <button onclick="reset()">reset</button>
     </div>
+    <!-- Hasil -->
+
+    <!-- Mine -->
     <div class="mine" align="center">
+        <!-- Bagian Atas -->
         <div class="Atas">
+            <!-- Topaz -->
             <div class="Topaz">
                 <header>
                     <p><img src="https://BallSpins.github.io/SpinsGems/assets/Gemstone/Topaz.png"><br>Topaz</p>
@@ -53,6 +62,9 @@
                         <input type="number" name="Htopaz" id="Htopaz" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
                 </section>
             </div>
+            <!-- /Topaz -->
+
+            <!-- Emerald -->
             <div class="Emerald">
                 <header>
                     <p><img src="https://BallSpins.github.io/SpinsGems/assets/Gemstone/Emerald.png"><br>Emerald</p>
@@ -80,8 +92,11 @@
                 <section class="bottom">
                     <label for="Hemerald">Huge:</label><br>
                         <input type="number" name="Hemerald" id="Hemerald" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
-                </section>
+                    </section>
             </div>
+            <!-- /Emerald -->
+
+            <!-- Sapphire -->
             <div class="Sapphire">
                 <header>
                     <p><img src="https://BallSpins.github.io/SpinsGems/assets/Gemstone/Sapphire.png"><br>Sapphire</p>
@@ -111,8 +126,13 @@
                         <input type="number" name="Hsapphire" id="Hsapphire" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
                 </section>
             </div>
+            <!-- /Sapphire -->
         </div><br>
+        <!-- /Bagian Atas -->
+
+        <!-- Bagian Bawah -->
         <div class="Bawah">
+            <!-- Ruby -->
             <div class="Ruby">
                 <header>
                     <p><img src="https://BallSpins.github.io/SpinsGems/assets/Gemstone/Ruby.png"><br>Ruby</p>
@@ -142,6 +162,9 @@
                         <input type="number" name="Hruby" id="Hruby" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
                 </section>
             </div>
+            <!-- /Ruby -->
+
+            <!-- Diamond -->
             <div class="Diamond">
                 <header>
                     <p><img src="https://BallSpins.github.io/SpinsGems/assets/Gemstone/Diamond.png"><br>Diamond</p>
@@ -168,10 +191,14 @@
                 </div>
                 <section class="bottom">
                     <label for="Hdiamond">Huge:</label><br>
-                        <input type="number" name="Hdiamond" id="Hdiamond" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
+                    <input type="number" name="Hdiamond" id="Hdiamond" onchange="Mcalc(); Mpricecalc();" class="round" value="0">
                 </section>
             </div>
+            <!-- /Diamond -->
         </div>
+        <!-- /Bagian Bawah -->
+
+        <!-- Price calc -->
         <div class="Nof">
             <div class="Price">
                 <p>Input Fgems price right now(.../250):</p>
@@ -181,10 +208,13 @@
                 </div>
             </div>
         </div>
+        <!-- /Price calc -->
     </div>
+    <!-- /Mine -->
+
     <!-- For Testing
-        <script src="https://BallSpins.github.io/SpinsGems/js/main.js"></script>
+        <script src="../js/main.js"></script>
     -->
-    <script src="../js/main.js"></script>
+    <script src="https://BallSpins.github.io/SpinsGems/js/main.js"></script>
 </body>
 </html>

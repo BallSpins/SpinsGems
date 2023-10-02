@@ -1,4 +1,4 @@
-function Fcalc() {
+function Fcalc() {//Fish Gems
     const fish = [
         {//herring
             tiny: 10 * document.getElementById("Therring").value,
@@ -95,7 +95,7 @@ function Fcalc() {
     document.getElementById("total").innerHTML = sum;
     return sum;
 }
-function Mcalc() {
+function Mcalc() { //Mine Gems
     const Gemstone = [
         {//Topaz
             tiny: 3 * document.getElementById("Ttopaz").value,
@@ -150,7 +150,7 @@ function Mpricecalc() {
     document.getElementById("priTo").innerHTML = Mcalc() / preca.value * 250;
 }
 function reset() {
-    document.getElementsByClassName("round")[0].value * 0;
+    document.querySelectorAll("input").value="0";
 }
 function toMchange() {
     location.replace('https://BallSpins.github.io/SpinsGems/html/gems.html');
