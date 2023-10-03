@@ -150,7 +150,7 @@ function Mpricecalc() {
     document.getElementById("priTo").innerHTML = Mcalc() / preca.value * 250;
 }
 function reset() {
-    document.querySelectorAll("input").value="0";
+    document.getElementById("total").innerHTML = "0";
 }
 function toMchange() {
     location.replace('https://BallSpins.github.io/SpinsGems/html/gems.html');
