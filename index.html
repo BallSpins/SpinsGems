@@ -4,11 +4,8 @@
         <meta charset="UTF-8">
         <title>SpinsGems</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/x-icon" href="assets/icon/favicon.jpg">
-        <link rel="stylesheet" type="text/css" href="https://BallSpins.github.io/SpinsGems/css/style.css">
-        <!-- for testing
-            <link rel="stylesheet" href="css/style.css">
-        -->
+        <link rel="icon" type="image/x-icon" href="assets/icon/Sp.png">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body style="background-color: lightskyblue;">
         <!-- Judul -->
@@ -24,7 +21,8 @@
             <button onclick="toFchange()" style="background-color: blue; color: white;">Fgems</button>
             <button onclick="toMchange()">Mgems</button>
             <p>Total gems: <span id="total">0</span></p>
-            <button onclick="reset()">reset</button>
+            <button onclick="reset()">Reset</button>
+            <button id="copy">Copy</button>
         </div>
         <!-- /Hasil -->
 
@@ -35,31 +33,31 @@
                 <!-- Herring -->
                 <div class="Herring">
                     <header>
-                        <p><img src="https://BallSpins.github.io/SpinsGems/assets/Fish/Herring.png"><br>Herring</p>
+                        <p><img src="assets/Fish/Herring.png"><br>Herring</p>
                     </header>
                     <div class="box1">
                         <section class="center">
                             <label for="Therring">Tiny:</label><br>
-                            <input type="number" name="Therring" id="Therring" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Therring" id="Therring" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Sherring">Small:</label><br>
-                            <input type="number" name="Sherring" id="Sherring" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Sherring" id="Sherring" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div><br>
                     <div class="box2">
                         <section class="center">
                             <label for="Mherring">Medium:</label><br>
-                            <input type="number" name="Mherring" id="Mherring" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Mherring" id="Mherring" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Lherring">Large:</label><br>
-                            <input type="number" name="Lherring" id="Lherring" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Lherring" id="Lherring" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div>
                     <section class="bottom">
                         <label for="Hherring">Huge:</label><br>
-                        <input type="number" name="Hherring" id="Hherring" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                        <input type="number" name="Hherring" id="Hherring" onchange="Fcalc(); Fpricecalc();" class="round">
                     </section>
                 </div>
                 <!-- /Herring -->
@@ -67,31 +65,31 @@
                 <!-- Kingfish -->
                 <div class="Kingfish">
                     <header>
-                        <p><img src="https://BallSpins.github.io/SpinsGems/assets/Fish/Kingfish.png"><br>Kingfish</p>
+                        <p><img src="assets/Fish/Kingfish.png"><br>Kingfish</p>
                     </header>
                     <div class="box1">
                         <section class="center">
                             <label for="Tkingfish">Tiny:</label><br>
-                            <input type="number" name="Tkingfish" id="Tkingfish" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Tkingfish" id="Tkingfish" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Skingfish">Small:</label><br>
-                            <input type="number" name="Skingfish" id="Skingfish" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Skingfish" id="Skingfish" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div><br>
                     <div class="box2">
                         <section class="center">
                             <label for="Mkingfish">Medium:</label><br>
-                            <input type="number" name="Mkingfish" id="Mkingfish" onchange="Fcalc(); Fpricecalc();" class="round" value="0"><br>
+                            <input type="number" name="Mkingfish" id="Mkingfish" onchange="Fcalc(); Fpricecalc();" class="round"><br>
                         </section>
                         <section class="center">
                             <label for="Lkingfish">Large:</label><br>
-                            <input type="number" name="Lkingfish" id="Lkingfish" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Lkingfish" id="Lkingfish" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div>
                     <section class="bottom">
                         <label for="Hkingfish">Huge:</label><br>
-                        <input type="number" name="Hkingfish" id="Hkingfish" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                        <input type="number" name="Hkingfish" id="Hkingfish" onchange="Fcalc(); Fpricecalc();" class="round">
                     </section>
                 </div>
                 <!-- /Kingfish -->
@@ -99,31 +97,31 @@
                 <!-- Goldfish -->
                 <div class="Goldfish">
                     <header>
-                        <p><img src="https://BallSpins.github.io/SpinsGems/assets/Fish/Gold.png"><br>Goldfish</p>
+                        <p><img src="assets/Fish/Gold.png"><br>Goldfish</p>
                     </header>
                     <div class="box1">
                         <section class="center">
                             <label for="Tgoldfish">Tiny:</label><br>
-                            <input type="number" name="Tgoldfish" id="Tgoldfish" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Tgoldfish" id="Tgoldfish" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Sgoldfish">Small:</label><br>
-                            <input type="number" name="Sgoldfish" id="Sgoldfish" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Sgoldfish" id="Sgoldfish" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div><br>
                     <div class="box2">
                         <section class="center">
                             <label for="Mgoldfish">Medium:</label><br>
-                            <input type="number" name="Mgoldfish" id="Mgoldfish" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Mgoldfish" id="Mgoldfish" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Lgoldfish">Large:</label><br>
-                            <input type="number" name="Lgoldfish" id="Lgoldfish" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Lgoldfish" id="Lgoldfish" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div>
                     <section class="bottom">
                         <label for="Hgoldfish">Huge:</label><br>
-                        <input type="number" name="Hgoldfish" id="Hgoldfish" onchange="Fcalc(); Fpricecalc();" class="round" value="0"><br>
+                        <input type="number" name="Hgoldfish" id="Hgoldfish" onchange="Fcalc(); Fpricecalc();" class="round"><br>
                     </section>
                 </div>
                 <!-- /Goldfish -->
@@ -135,31 +133,31 @@
                 <!-- Butterflyfish -->
                 <div class="Butterflyfish">
                     <header>
-                        <p><img src="https://BallSpins.github.io/SpinsGems/assets/Fish/Butter.png"><br>Butterflyfish</p>
+                        <p><img src="assets/Fish/Butter.png"><br>Butterflyfish</p>
                     </header>
                     <div class="box1">
                         <section class="center">
                             <label for="Tbutter">Tiny:</label><br>
-                             <input type="number" name="Tbutter" id="Tbutter" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                             <input type="number" name="Tbutter" id="Tbutter" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Sbutter">Small:</label><br>
-                            <input type="number" name="Sbutter" id="Sbutter" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Sbutter" id="Sbutter" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div><br>
                     <div class="box2">
                         <section class="center">
                             <label for="Mbutter">Medium:</label><br>
-                            <input type="number" name="Mbutter" id="Mbutter" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Mbutter" id="Mbutter" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Lbutter">Large:</label><br>
-                            <input type="number" name="Lbutter" id="Lbutter" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Lbutter" id="Lbutter" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div>
                     <section class="bottom">
                         <label for="Hbutter">Huge:</label><br>
-                        <input type="number" name="Hbutter" id="Hbutter" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                        <input type="number" name="Hbutter" id="Hbutter" onchange="Fcalc(); Fpricecalc();" class="round">
                     </section>
                 </div>
                 <!-- /Butterflyfish -->
@@ -167,31 +165,31 @@
                 <!-- Carp -->
                 <div class="Carp">
                     <header>
-                        <p><img src="https://BallSpins.github.io/SpinsGems/assets/Fish/Carp.png"><br>Carp</p>
+                        <p><img src="assets/Fish/Carp.png"><br>Carp</p>
                     </header>
                     <div class="box1">
                         <section class="center">
                             <label for="Tcarp">Tiny:</label><br>
-                            <input type="number" name="Tcarp" id="Tcarp" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Tcarp" id="Tcarp" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Scarp">Small:</label><br>
-                            <input type="number" name="Scarp" id="Scarp" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Scarp" id="Scarp" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div><br>
                     <div class="box2">
                         <section class="center">
                             <label for="Mcarp">Medium:</label><br>
-                            <input type="number" name="Mcarp" id="Mcarp" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Mcarp" id="Mcarp" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Lcarp">Large:</label><br>
-                            <input type="number" name="Lcarp" id="Lcarp" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Lcarp" id="Lcarp" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div>
                     <section class="bottom">
                         <label for="Hcarp">Huge:</label><br>
-                        <input type="number" name="Hcarp" id="Hcarp" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                        <input type="number" name="Hcarp" id="Hcarp" onchange="Fcalc(); Fpricecalc();" class="round">
                     </section>
                 </div>
                 <!-- /Carp -->
@@ -199,31 +197,31 @@
                 <!-- Halibut -->
                 <div class="Halibut">
                     <header>
-                        <p><img src="https://BallSpins.github.io/SpinsGems/assets/Fish/Halibut.png"><br>Halibut</p>
+                        <p><img src="assets/Fish/Halibut.png"><br>Halibut</p>
                     </header>
                     <div class="box1">
                         <section class="center">
                             <label for="Thali">Tiny:</label><br>
-                            <input type="number" name="Thali" id="Thali" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Thali" id="Thali" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Shali">Small:</label><br>
-                            <input type="number" name="Shali" id="Shali" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Shali" id="Shali" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div><br>
                     <div class="box2">
                         <section class="center">
                             <label for="Mhali">Medium:</label><br>
-                            <input type="number" name="Mhali" id="Mhali" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Mhali" id="Mhali" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section>
                             <label for="Lhali">Large:</label><br>
-                            <input type="number" name="Lhali" id="Lhali" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Lhali" id="Lhali" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div>
                     <section class="bottom">
                         <label for="Hhali">Huge:</label><br>
-                        <input type="number" name="Hhali" id="Hhali" onchange="Fcalc(); Fpricecalc();" class="round" value="0"><br>
+                        <input type="number" name="Hhali" id="Hhali" onchange="Fcalc(); Fpricecalc();" class="round"><br>
                     </section>
                 </div>
                 <!-- /Halibut -->
@@ -235,31 +233,31 @@
                 <!-- Tuna -->
                 <div class="Tuna">
                     <header>
-                        <p><img src="https://BallSpins.github.io/SpinsGems/assets/Fish/Tuna.png"><br>Tuna</p>
+                        <p><img src="assets/Fish/Tuna.png"><br>Tuna</p>
                     </header>
                     <div class="box1">
                         <section class="center">
                             <label for="Ttuna">Tiny:</label><br>
-                            <input type="number" name="Ttuna" id="Ttuna" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Ttuna" id="Ttuna" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Stuna">Small:</label><br>
-                            <input type="number" name="Stuna" id="Stuna" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Stuna" id="Stuna" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div><br>
                     <div class="box2">
                         <section class="center">
                             <label for="Mtuna">Medium:</label><br>
-                            <input type="number" name="Mtuna" id="Mtuna" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Mtuna" id="Mtuna" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Ltuna">Large:</label><br>
-                            <input type="number" name="Ltuna" id="Ltuna" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Ltuna" id="Ltuna" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div>
                     <section class="bottom">
                         <label for="Htuna">Huge:</label><br>
-                        <input type="number" name="Htuna" id="Htuna" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                        <input type="number" name="Htuna" id="Htuna" onchange="Fcalc(); Fpricecalc();" class="round">
                     </section>
                 </div>
                 <!-- /Tuna -->
@@ -267,31 +265,31 @@
                 <!-- Angler -->
                 <div class="Angler">
                     <header>
-                        <p><img src="https://BallSpins.github.io/SpinsGems/assets/Fish/Angler.png"><br>Sea Angler</p>
+                        <p><img src="assets/Fish/Angler.png"><br>Sea Angler</p>
                     </header>
                     <div class="box1">
                         <section class="center">
                             <label for="Tang">Tiny:</label><br>
-                            <input type="number" name="Tang" id="Tang" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Tang" id="Tang" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Sang">Small:</label><br>
-                            <input type="number" name="Sang" id="Sang" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Sang" id="Sang" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div><br>
                     <div class="box2">
                         <section class="center">
                             <label for="Mang">Medium:</label><br>
-                            <input type="number" name="Mang" id="Mang" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Mang" id="Mang" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Lang">Large:</label><br>
-                            <input type="number" name="Lang" id="Lang" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Lang" id="Lang" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div>
                     <section class="bottom">
                         <label for="Hang">Huge:</label><br>
-                        <input type="number" name="Hang" id="Hang" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                        <input type="number" name="Hang" id="Hang" onchange="Fcalc(); Fpricecalc();" class="round">
                     </section>
                 </div>
                 <!-- /Angler -->
@@ -299,31 +297,31 @@
                 <!-- Dumb -->
                 <div class="Dumb">
                     <header>
-                        <p><img src="https://BallSpins.github.io/SpinsGems/assets/Fish/Dumb.png"><br>Dumbfish</p>
+                        <p><img src="assets/Fish/Dumb.png"><br>Dumbfish</p>
                     </header>
                     <div class="box1">
                         <section class="center">
                             <label for="Tdum">Tiny:</label><br>
-                            <input type="number" name="Tdum" id="Tdum" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Tdum" id="Tdum" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Sdum">Small:</label><br>
-                            <input type="number" name="Sdum" id="Sdum" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Sdum" id="Sdum" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div><br>
                     <div class="box2">
                         <section class="center">
                             <label for="Mdum">Medium:</label><br>
-                            <input type="number" name="Mdumm" id="Mdum" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Mdumm" id="Mdum" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Ldum">Large:</label><br>
-                            <input type="number" name="Ldum" id="Ldum" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Ldum" id="Ldum" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div>
                     <section class="bottom">
                         <label for="Hdum">Huge:</label><br>
-                        <input type="number" name="Hdum" id="Hdum" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                        <input type="number" name="Hdum" id="Hdum" onchange="Fcalc(); Fpricecalc();" class="round">
                     </section>
                 </div>
                 <!-- /Dumb -->
@@ -335,31 +333,31 @@
                 <!-- Acid -->
                 <div class="Acid">
                     <header>
-                        <p><img src="https://BallSpins.github.io/SpinsGems/assets/Fish/Acid.png"><br>Acid Pufferfish</p>
+                        <p><img src="assets/Fish/Acid.png"><br>Acid Pufferfish</p>
                     </header>
                     <div class="box1">
                         <section class="center">
                             <label for="Tacid">Tiny:</label><br>
-                            <input type="number" name="Tacid" id="Tacid" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Tacid" id="Tacid" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Sacid">Small:</label><br>
-                            <input type="number" name="Sacid" id="Sacid" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Sacid" id="Sacid" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div><br>
                     <div class="box2">
                         <section class="center">
                             <label for="Macid">Medium:</label><br>
-                            <input type="number" name="Macid" id="Macid" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Macid" id="Macid" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Lacid">Large:</label><br>
-                            <input type="number" name="Lacid" id="Lacid" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Lacid" id="Lacid" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div>
                     <section class="bottom">
                         <label for="Hacid">Huge:</label><br>
-                        <input type="number" name="Hacid" id="Hacid" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                        <input type="number" name="Hacid" id="Hacid" onchange="Fcalc(); Fpricecalc();" class="round">
                     </section>
                 </div>
                 <!-- /Acid -->
@@ -367,31 +365,31 @@
                 <!-- Piranha -->
                 <div class="Piranha">
                     <header>
-                        <p><img src="https://BallSpins.github.io/SpinsGems/assets/Fish/Piranha.png"><br>Piranha</p>
+                        <p><img src="assets/Fish/Piranha.png"><br>Piranha</p>
                     </header>
                     <div class="box1">
                         <section class="center">
                             <label for="Tpir">Tiny:</label><br>
-                            <input type="number" name="Tpir" id="Tpir" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Tpir" id="Tpir" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Spir">Small:</label><br>
-                            <input type="number" name="Spir" id="Spir" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Spir" id="Spir" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div><br>
                     <div class="box2">
                         <section class="center">
                             <label for="Mpir">Medium:</label><br>
-                            <input type="number" name="Mpir" id="Mpir" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Mpir" id="Mpir" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Lpir">Large:</label><br>
-                            <input type="number" name="Lpir" id="Lpir" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Lpir" id="Lpir" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div>
                     <section class="bottom">
                         <label for="Hpir">Huge:</label><br>
-                        <input type="number" name="Hpir" id="Hpir" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                        <input type="number" name="Hpir" id="Hpir" onchange="Fcalc(); Fpricecalc();" class="round">
                     </section>
                 </div>
                 <!-- /Piranha -->
@@ -399,31 +397,31 @@
                 <!-- Crab -->
                 <div class="Crab">
                     <header>
-                        <p><img src="https://BallSpins.github.io/SpinsGems/assets/Fish/Crab.png"><br>Crab</p>
+                        <p><img src="assets/Fish/Crab.png"><br>Crab</p>
                     </header>
                     <div class="box1">
                         <section class="center">
                             <label for="Tcrab">Tiny:</label><br>
-                            <input type="number" name="Tcrab" id="Tcrab" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Tcrab" id="Tcrab" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Scrab">Small:</label><br>
-                            <input type="number" name="Scrab" id="Scrab" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Scrab" id="Scrab" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div><br>
                     <div class="box2">
                         <section class="center">
                             <label for="Mcrab">Medium:</label><br>
-                            <input type="number" name="Mcrab" id="Mcrab" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Mcrab" id="Mcrab" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                         <section class="center">
                             <label for="Lcrab">Large:</label><br>
-                            <input type="number" name="Lcrab" id="Lcrab" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                            <input type="number" name="Lcrab" id="Lcrab" onchange="Fcalc(); Fpricecalc();" class="round">
                         </section>
                     </div>
                     <section class="bottom">
                         <label for="Hcrab">Huge:</label><br>
-                        <input type="number" name="Hcrab" id="Hcrab" onchange="Fcalc(); Fpricecalc();" class="round" value="0">
+                        <input type="number" name="Hcrab" id="Hcrab" onchange="Fcalc(); Fpricecalc();" class="round">
                     </section>
                 </div>
             </div>
@@ -433,9 +431,9 @@
             <div class="Nof">
                 <div class="Price">
                     <p>Input Fgems price right now(.../250):</p>
-                    <input type="number" id="preca" name="preca" onchange="Fpricecalc()" class="round" value="0"><br>
+                    <input type="number" id="preca" name="preca" onchange="Fpricecalc()" class="round"><br>
                     <div class="totalprice">
-                        <p>Price of your gems is: <span id="priTo">0<img src="https://BallSpins.github.io/SpinsGems/assets/ByteCoin.webp" id="bc"></span></p>
+                        <p>Price of your gems is: <span id="priTo">0</span><img src="assets/ByteCoin.webp" id="bc"></p>
                     </div>
                 </div>
             </div>
@@ -443,9 +441,6 @@
         </div>
         <!-- /Ikan -->
 
-        <!-- For Testing
-            <script src="js/main.js"></script>
-        -->
-        <script src="https://BallSpins.github.io/SpinsGems/js/main.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
