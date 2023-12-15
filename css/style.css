@@ -1,8 +1,10 @@
 body {
     width: auto;
     height: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .hasil button {
     border-radius: 10px 10px 10px 10px;
@@ -15,16 +17,17 @@ body {
     transition: all 0.4s ease-in-out;
 }
 .Atas, .Atas-Tengah, .Bawah-Tengah, .Bawah {
-    border: 10px 10px 10px 10px;
+    box-sizing: content-box;
     display: inline-flex;
     padding: 0 40px 10px 40px;
     margin-top: 10px;
-    border-bottom: 5px solid;
+    border-bottom: 4px solid;
 }
 .Herring, .Kingfish, .Goldfish,
 .Butterflyfish, .Carp, .Halibut,
 .Tuna, .Angler, .Dumb,
 .Acid, .Piranha, .Crab {
+    display: inline-block;
     background-color: aquamarine;
     border-radius: 10px 10px 10px 10px;
 }
@@ -39,15 +42,16 @@ body {
 }
 .Topaz, .Emerald, .Sapphire,
 .Ruby, .Diamond {
-    background-color: firebrick;
+    background-color: #B9F2ff;
     border-radius: 10px 10px 10px 10px;
 }
 img {
     border-radius: 5px 5px 5px 5px;
     width: 40px;
+}.anick {
+    display: flex;
 }
 #bc {
-    margin-top: 15px;
     width: 22px;
 }
 .totalprice p {
@@ -67,23 +71,26 @@ input {
     margin: 5px 5px 0 0;
 }
 .hasil {
-    top: 0;
-    width: 30%;
+    left: auto;
+    top: auto;
     margin: auto;
     position: sticky;
     text-align: center;
     padding: 15px 0 15px 0;
     box-shadow: 1px 4px 8px black;
     border-radius: 10px 10px 10px 10px;
+}
+.hasil, .Nof {
     background-color: blanchedalmond;
 }
 .Nof {
-    text-align: center;
+    left: auto;
+    top: auto;
     margin: auto;
-    margin-top: 30px;
-    border-radius: 20px 20px 20px 20px;
-    width: 50%;
-    background-color: #000000a6;
+    padding: 10px 10px;
+    text-align: center;
+    box-shadow: 1px 4px 8px black;
+    border-radius: 10px 10px 10px 10px;
 }
 #pricecalc {
     background: none;
@@ -97,13 +104,13 @@ input {
     border-radius: 0 10px 0 10px;
     background-color: red;
 }
-/*Laptop*/
+/*Laptop
 @media (max-width:1024px){
     html {
         font-size: large;
     }
 }
-/*Tablet*/
+/*Tablet
 @media (max-width:768px){
     html {
         font-size: medium;
@@ -115,10 +122,12 @@ input {
         width: 25%;
     }
 }
-/*Mobile*/
+/*Mobile
 @media (max-width:576px){
     html {
         font-size: small;
+        width: auto;
+        margin: auto;
     }
     .Kingfish, .Carp, .Angler, .Piranha {
         margin: 0 15px 0 15px;
@@ -133,4 +142,4 @@ input {
     .hasil  {
         width: 40%;
     }
-}
+}*/
